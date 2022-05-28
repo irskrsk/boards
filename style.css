@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: rgb(11, 71, 43);
+    background-color: rgb(14, 133, 133);
     position: fixed;
     width: 100%;
     /* font-size: 36px; */
@@ -14,19 +14,21 @@ header{
 }
 
 .coloms{
-    background-color: green;
+    background-color: rgb(27, 148, 148);
     margin-top: 85px;
     padding: 20px 0;
     display: grid;
     grid-template-columns: repeat( 5, minmax(300px, 400px) );
+    grid-column-gap: 15px;
+    overflow-x: auto;
+    height: calc(100vh - 85px);
 }
 
 .coloms-item{
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(146, 145, 145);
     padding: 20px;
-    
-    margin-left: 30px;
     border-radius: 5px;
+    overflow-y: auto;
 }
 
 .icons-conteiner{
